@@ -4,7 +4,7 @@
 ```bash
 sudo apt install ripgrep bat fzf curl wget zsh && curl https://raw.githubusercontent.com/florianmaierd/setup/main/.zshrc > ~/.zshrc && curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim && curl 
-https://raw.githubusercontent.com/florianmaierd/setup/main/.vimrc > ~/.vimrc
+https://raw.githubusercontent.com/florianmaierd/setup/master/.vimrc > ~/.vimrc
 ```
 Install Plugings
 ```bash
@@ -21,7 +21,7 @@ sudo apt install ripgrep bat fzf curl wget zsh
 
 ### Copy .zshrc
 ```bash
-curl https://raw.githubusercontent.com/florianmaierd/setup/main/.zshrc > ~/.zshrc
+curl https://raw.githubusercontent.com/florianmaierd/setup/master/.zshrc > ~/.zshrc
 ```
 
 ### Install Vim Plug (Plugin Manager)
@@ -32,7 +32,7 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 
 ### Copy .vimrc
 ```bash
-curl https://raw.githubusercontent.com/florianmaierd/setup/main/.vimrc > ~/.vimrc
+curl https://raw.githubusercontent.com/florianmaierd/setup/master/.vimrc > ~/.vimrc
 ```
 
 ### Install Plugins in vim
