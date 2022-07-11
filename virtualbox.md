@@ -12,5 +12,5 @@ Use existing virtual hard disk file & select kali linux iso file.
 
 ### Machine Settings
 #### Display  
-Video Memory - 128
+Video Memory - 128   
 Enable 3D Acceleration - True
