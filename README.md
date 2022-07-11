@@ -16,3 +16,5 @@ curl https://raw.githubusercontent.com/florianmaierd/setup/master/.zshrc > ~/.zs
 # Install Vim Plugins
 vim +'PlugInstall --sync' +qa
 ```
+
+## [Virtualbox](https://github.com/florianmaierd/setup/blob/master/virtualbox.md)
