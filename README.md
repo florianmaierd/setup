@@ -2,7 +2,7 @@
 
 ### Short
 ```bash
-sudo apt install ripgrep bat fzf curl wget zsh && curl https://raw.githubusercontent.com/florianmaierd/setup/main/.zshrc > ~/.zshrc && curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+sudo apt install ripgrep bat fzf curl wget zsh && curl https://raw.githubusercontent.com/florianmaierd/setup/master/.zshrc > ~/.zshrc && curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim && curl 
 https://raw.githubusercontent.com/florianmaierd/setup/master/.vimrc > ~/.vimrc
 ```
