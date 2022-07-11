@@ -5,6 +5,8 @@ set number
 
 call plug#begin()
   Plug 'morhetz/gruvbox'
+  Plug 'sheerun/vim-polyglot'
+  Plug 'jiangmiao/auto-pairs'
   Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
   Plug 'junegunn/fzf.vim'
 call plug#end()
