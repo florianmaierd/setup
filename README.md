@@ -1,0 +1,41 @@
+## Vim & Terminal
+
+### Short
+```bash
+sudo apt install ripgrep bat fzf curl wget zsh && curl https://raw.githubusercontent.com/florianmaierd/setup/main/.zshrc > ~/.zshrc && sh -c 'curl -fLo 
+"${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim' && curl 
+https://raw.githubusercontent.com/florianmaierd/setup/main/.vimrc > ~/.vimrc
+```
+Install Plugings
+```bash
+vim
+:PlugInstall
+```
+
+### Long
+
+### Install Packages
+```bash
+sudo apt install ripgrep bat fzf curl wget zsh
+```
+
+### Copy .zshrc
+```bash
+curl https://raw.githubusercontent.com/florianmaierd/setup/main/.zshrc > ~/.zshrc
+```
+
+### Install Vim Plug (Plugin Manager)
+```bash
+sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+```
+
+### Copy .vimrc
+```bash
+curl https://raw.githubusercontent.com/florianmaierd/setup/main/.vimrc > ~/.vimrc
+```
+
+### Install Plugins in vim
+```bash
+vim
+:PlugInstall
+```
