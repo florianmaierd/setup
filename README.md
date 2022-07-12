@@ -1,3 +1,4 @@
+´´´bash
 # update and upgrade
 sudo dnf update -y
 
@@ -55,4 +56,4 @@ sudo useradd -g $USER libvirt
 # 2. create new machine
 # 3. select from local (iso)
 # 4. 2048 MB & 2 cores
-
+´´´
