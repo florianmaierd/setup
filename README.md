@@ -1,3 +1,4 @@
+## Fedora 36 Installation
 ```bash
 # update and upgrade
 sudo dnf update -y
@@ -46,8 +47,26 @@ sudo dnf install @virtualization -y
 sudo systemctl enable libvirtd.service
 
 # Add user to virt groups
+sudo groupadd libvirt
+sudo usermod -a -G libvirt $USER
 sudo useradd -g $USER libvirt-kvm
 sudo useradd -g $USER libvirt
+
+# Install rust and cargo
+sudo dnf install rust cargo
+
+# Install alacritty
+sudo dnf install cmake freetype-devel fontconfig-devel libxcb-devel libxkbcommon-devel g++
+sudo dnf install alacritty
+
+# Install picom
+sudo dnf install picom
+
+# Install arandr (for screen alignment)
+sudo dnf install arandr
+
+# Install i3
+sudo dnf install i3
 
 # Download iso
 # https://www.parrotsec.org/download/
@@ -56,4 +75,8 @@ sudo useradd -g $USER libvirt
 # 2. create new machine
 # 3. select from local (iso)
 # 4. 2048 MB & 2 cores
+
+# Reboot
 ```
+
+## Manual Install VMs
