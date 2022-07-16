@@ -25,14 +25,8 @@ sudo dnf install ripgrep bat fzf curl wget -y
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
   https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
-# Copy .vimrc
-curl https://raw.githubusercontent.com/florianmaierd/setup/master/.vimrc > ~/.vimrc
-
 # Install oh my zsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-
-# Copy .zshrc
-curl https://raw.githubusercontent.com/florianmaierd/setup/master/.zshrc > ~/.zshrc
 
 # Install Vim Plugins
 vim +'PlugInstall --sync' +qa
@@ -67,6 +61,15 @@ sudo dnf install arandr
 
 # Install i3
 sudo dnf install i3
+
+# Copy config files
+git clone https://github.com/florianmaierd/setup.git
+cd setup
+mv .vimrc ~/
+mv .zshrc ~/
+mv .config/* ~/.config
+# move image files
+sudo mv images /usr/share/
 
 # Download iso
 # https://www.parrotsec.org/download/
